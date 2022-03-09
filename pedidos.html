@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos Kitty Cake</title>
+</head>
+<body>
+    <header>
+    <div>
+        <div><a href="index.html"><img src="./img/banner.png" width="300" height="200"></a></div>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="adornos.html">Adornos</a></li>
+            <li><a href="pedidos.html">Pedidos</a></li>
+            <li><a href="pastelero.html">Soy Pastelero</a></li>
+        </ul>
+    </nav>
+    </header>
+    <h2>Realiza tu pedido</h2>
+        <div>
+            <form action="#">
+            <div>
+                <label for="nombre">Nombre: </label> 
+                <input type="text" id="nombre" placeholder="Ingrese su nombre" size="50">
+            </div>
+            <div>
+                <label for="email">Email:</label> 
+                <input type="text" id="email" placeholder="Ingrese su email" size="40">
+            </div>
+            <div>
+                <label for="telefono">Celular:</label> 
+                <input type="tel" id="telefono" maxlegth="10" placeholder="Ingrese su Celular" size="30">
+            </div>
+            <div>
+                <label for="productos">Producto:</label> 
+                <input type="text" id="producto" placeholder="Que producto desea" size="30">
+                <br><select>
+                    <option selected>¿Que producto desea?</option>
+                    <option value="1">Pastel chico</option>
+                    <option value="2">Pastel mas de un piso</option>
+                    <option value="3">Cupcakes</option>
+                </select>
+            </div>
+            <div>
+                <br><p>¿Que decoracion desea en su pastel?</p>
+                    <div>
+                        <input value="" type="checkbox" id="betun">
+                        <label for="betun"> Betun </label>
+                    </div>
+                    <div>
+                        <input value="" type="checkbox" id="fondant">
+                        <label for="betun"> Fondant </label>
+                    </div>
+                    <div>
+                        <input value="" type="checkbox" id="figura">
+                        <label for="figura"> Figura </label>
+                    </div>
+            </div>
+            <div>
+                <button type="reset">Reset</button>
+                <button type="submit">Enviar</button>
+            </div>
+            </form>
+        </div>
+    <footer>
+        <p>Pasteleria Kitty Cat S.A. de C.V. es una empresa 100% <br>
+            mexicana. Nuestros productos se han hecho con amor <br>
+            Derechos recerbados 2022<br>
+            Felix U. Gómez 1978 Calle los Rabanos, Col. Moderna <br>
+            Tel: 81-85-87-56-59
+        </p>
+    </footer>
+</body>
+</html>
